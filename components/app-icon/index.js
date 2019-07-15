@@ -1,15 +1,15 @@
 import React from 'react';
 import { Ionicons } from '@expo/vector-icons';
 
-import Colors from '../constants/Colors';
+import COLORS from '../../constants/colors';
 
-export default function TabBarIcon(props) {
+export default function AppIcon(props) {
   return (
     <Ionicons
       name={props.name}
       size={26}
       style={{ marginBottom: -3 }}
-      color={props.focused ? Colors.tabIconSelected : Colors.tabIconDefault}
+      color={props.focused ? COLORS.tabIconSelected : COLORS.tabIconDefault}
     />
   );
 }
