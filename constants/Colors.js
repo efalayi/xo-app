@@ -5,7 +5,6 @@ const ORANGE_DARK = '#BF4904';
 const BLACK = '#0D0D0D';
 const WHITE = '#FFFFFF';
 
-// const tintColor = '#2f95dc';
 const tintColor = YELLOW;
 
 export default {
