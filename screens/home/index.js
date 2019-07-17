@@ -17,7 +17,7 @@ export default class HomeScreen extends Component {
   };
 
   handlePress = () => {
-    console.log('start game');
+    this.props.navigation.navigate('GameBoard');
   }
 
   render() {
