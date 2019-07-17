@@ -4,11 +4,13 @@ import { createStackNavigator } from 'react-navigation';
 
 import AppIcon from '../../../components/app-icon';
 import HomeScreen from '../../../screens/home';
+import GameBoardScreen from '../../../screens/game-board';
 import config from '../config';
 
 const HomeStack = createStackNavigator(
   {
     Home: HomeScreen,
+    GameBoard: GameBoardScreen
   },
   config
 );
