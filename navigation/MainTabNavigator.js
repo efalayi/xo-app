@@ -14,8 +14,8 @@ const tabNavigator = createBottomTabNavigator({
       activeTintColor: COLORS.tintColor,
       labelStyle: {
         fontSize: 12,
-        fontWeight: '600',
-        letterSpacing: 0.2,
+        fontWeight: '500',
+        letterSpacing: 0.1,
         padding: 0
       },
       style: {
