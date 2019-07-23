@@ -11,6 +11,7 @@ export default {
   black: BLACK,
   errorBackground: 'red',
   errorText: WHITE,
+  grey: 'grey',
   noticeBackground: tintColor,
   noticeText: WHITE,
   orange: ORANGE,

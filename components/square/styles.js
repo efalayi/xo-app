@@ -10,15 +10,32 @@ const styles = StyleSheet.create({
     borderColor: COLORS.orangeDark,
     opacity: 1
   },
+  squareDisabled: {
+    borderColor: COLORS.orangeDark,
+    opacity: 1
+  },
   squareText: {
-    color: 'red'
+    color: 'red',
+    fontSize: 20
   },
   playerO: {
     backgroundColor: COLORS.orangeDark
   },
   playerX: {
     backgroundColor: COLORS.yellowDark
-  }
+  },
+  match: {
+    backgroundColor: COLORS.yellow,
+    borderColor: COLORS.yellow
+  },
+  disabled: {
+    backgroundColor: COLORS.grey,
+    borderColor: COLORS.grey
+  },
+  squareMatchText: {
+    color: COLORS.black,
+    fontSize: 20
+  },
 });
 
 export default styles;

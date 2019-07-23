@@ -33,8 +33,24 @@ export class Square extends PureComponent {
   }
 
   render() {
-    const { column } = this.props;
+    const { column, matchIds } = this.props;
     const { isClicked } = this.state;
+
+    if (matchIds) {
+      const matchColorStyle = matchIds.includes(column.id) ? 'match' : 'disabled';
+
+      return (
+        <Button
+          type="primary"
+          disabled
+          style={[styles.square, styles[matchColorStyle]]}
+        >
+          <Text style={styles.squareMatchText}>
+            {column.value}
+          </Text>
+        </Button>
+      );
+    }
 
     if (isClicked) {
       const { playerColorStyle } = this.state;
